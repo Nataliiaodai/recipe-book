@@ -26,4 +26,4 @@ import { PlaceholderDirective } from "./placeholder/placeholder.directive";
     entryComponents: [AlertComponent],
     providers: [LoggingService],
 })
-export class SharedModule {} 
+export class SharedModule {}  
