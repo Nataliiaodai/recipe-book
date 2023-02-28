@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-xs-12">
-    <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="height: 250px; width: 250px;">
+    <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive"
+         style="max-heigh: 250px; max-width: 300px; margin-left: auto; margin-right: auto">
   </div>
 </div>
 <div class="row">
@@ -8,6 +9,7 @@
     <h1>{{recipe.name}}</h1>
   </div>
 </div>
+<hr>
 <div class="row">
   <div class="col-xs-12">
     <div class="button-group" appDropdown>
@@ -28,6 +30,7 @@
     {{recipe.description}}
   </div>
 </div>
+<hr>
 
 <div class="row">
   <div class="col-xs-12">
